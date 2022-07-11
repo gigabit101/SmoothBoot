@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.gigabit101.smoothboot.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "smoothboot.refmap.json",
+  "mixins": [
+  ],
+  "minVersion": "0.8",
+  "client": [
+    "MixinSharedConstants"
+  ]
+}

@@ -1,0 +1,27 @@
+modLoader="javafml" #mandatory
+loaderVersion="[41,]" #mandatory
+license="GNU General Public License v3.0"
+credits="" #optional
+authors="Gigabit101" #optional
+[[mods]] #mandatory
+    # The modid of the mod
+    modId="smoothboot" #mandatory
+    # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+    version="${file.jarVersion}" #mandatory
+     # A display name for the mod
+    displayName="SmoothBoot" #mandatory
+    # The description text for the mod (multi line!) (#mandatory)
+    description='''
+'''
+[[dependencies.smoothboot]]
+   modId="forge"
+   mandatory=true
+   versionRange="[41,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.smoothboot]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19, ]"
+    ordering="NONE"
+    side="BOTH"
